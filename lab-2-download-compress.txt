@@ -8,20 +8,26 @@ Use `curl` to download a sample file. For example:
    ```
 The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
 
+curl -O https://getsamplefiles.com/download/tar/sample-3.tar
+
 **Exercise 2: Checking File Existence**
 
-Check if the file `samplefile.tar.gz` was downloaded successfully?
+Check if the file `sample-3.tar` was downloaded successfully?
 ----
+ls
+documents  java  nvm  sample-3.tar
 
 
 **Exercise 3: Display File Content**
 
 Display the content of the downloaded `samplefile.tar.gz` without extracting it?
+I don't know the answer
 
 
 **Exercise 4: Downloading to a Specific Directory**
 
 Download the above file using `curl` and save it to a specific directory, such as `/path/to/directory`. Any directory would do.
+https://getsamplefiles.com/download/tar/sample-3.tar
 
 
 **Exercise 5: Downloading and Uncompressing Simultaneously**
