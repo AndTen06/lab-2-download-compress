@@ -5,6 +5,7 @@ Open your terminal emulator.
 Use `curl` to download a sample file. For example:
    ```bash
    curl -O https://example.com/samplefile.tar.gz
+
    ```
 The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
 
@@ -33,12 +34,12 @@ https://getsamplefiles.com/download/tar/sample-3.tar
 **Exercise 5: Downloading and Uncompressing Simultaneously**
 
 Download the above file, extract it using `tar`, and save it in a single directory in a single `curl` command.
-
+curl
 
 **Exercise 6: Uncompressing a File**
 
 Extract the file using the tar command.
-
+tar
 
 **Exercise 7: Checking File Compression Type**
 
